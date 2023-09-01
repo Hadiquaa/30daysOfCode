@@ -12,3 +12,7 @@ Made the whole codehelp figma website using flex and grid
 August 17,2023
 # Hamburger menu animation button
 Animation of a hamburger menu button
+#DAY 4
+August 18,2023
+# Full Portfolio Website
+full portfolio website with animations and stuff
