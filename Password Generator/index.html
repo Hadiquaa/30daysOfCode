@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1>Password Generator</h1>
+        <div class="display-container">
+          <input
+            type="text"
+            readonly
+            data-password
+            class="display"
+            placeholder="Password"
+          />
+          <button class="copy-btn">
+            <span class="copyMsg">Copy</span>
+            <img
+              src="assets/copy.svg"
+              alt=""
+              class="copy-icon"
+              width="25px"
+              height="25px"
+            />
+          </button>
+        </div>
+        <div class="input-container">
+          <div class="length-container">
+            <p>Password Length</p>
+            <div class="length-display">10</div>
+          </div>
+          <input type="range" name="slider" id="slider" min="1" max="20" />
+          <div class="checkList">
+            <input type="checkbox" name="upperCase" id="upperCase" />
+            <p>Include Upper Case Letters</p>
+          </div>
+          <div class="checkList">
+            <input type="checkbox" name="lowerCase" id="lowerCase" />
+            <p>Include Lower Case Letters</p>
+          </div>
+          <div class="checkList">
+            <input type="checkbox" name="number" id="number" />
+            <p>Include Numbers</p>
+          </div>
+          <div class="checkList">
+            <input type="checkbox" name="symbols" id="symbols" />
+            <p>Include Symbols</p>
+          </div>
+          <div class="strength-container">
+            <p>Strength</p>
+            <div class="indicator"></div>
+          </div>
+          <button class="generatebtn">Generate Password</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
