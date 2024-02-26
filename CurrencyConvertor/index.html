@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1>Currency Convertor</h1>
+        <form action="">
+          <div class="amount-container">
+            <p>Enter Amount</p>
+            <input type="text" id="amount" />
+          </div>
+          <div class="drop-list">
+            <div class="from-container">
+              <p>From</p>
+              <div class="select-box">
+                <img
+                  src="https://www.worldometers.info//img/flags/small/tn_us-flag.gif"
+                  alt=""
+                  width="30px"
+                  height="20px"
+                />
+                <select name="from" id="from"></select>
+              </div>
+            </div>
+            <div class="exchange-symbol">
+              <i class="fa-solid fa-right-left"></i>
+            </div>
+            <div class="to-container">
+              <p>To</p>
+              <div class="select-box">
+                <img
+                  src="https://www.worldometers.info//img/flags/small/tn_in-flag.gif"
+                  alt="flag"
+                  width="30px"
+                  height="20px"
+                />
+                <select name="to" id="to"></select>
+              </div>
+            </div>
+          </div>
+          <div class="exchange-rate">
+            <input
+              type="text"
+              name="exchange-rate"
+              id="exchange-rate"
+              readonly
+            />
+          </div>
+          <button>Get Exchange Rate</button>
+        </form>
+      </div>
+    </div>
+    <script src="country.js"></script>
+    <script
+      src="https://kit.fontawesome.com/506573350a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>

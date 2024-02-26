@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: steelblue;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  max-width: 450px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 3%;
+}
+h1 {
+  text-align: center;
+  letter-spacing: 1;
+  line-height: 1.2;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+form {
+  margin: 40px 0 20px;
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+}
+
+form input:focus {
+  border: 2px solid steelblue;
+}
+
+.amount-container p {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.drop-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 12px 20px 12px;
+  position: relative;
+}
+
+.drop-list p {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.select-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  height: 45px;
+  width: 115px;
+}
+.select-box select {
+  width: auto;
+  font-size: 16px;
+  margin: 0 -5px 0 5px;
+  border: none;
+  outline: none;
+}
+.exchange-symbol {
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  height: 40px;
+  background-color: steelblue;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
