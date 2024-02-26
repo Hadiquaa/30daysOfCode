@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Scramble</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1>Word Scramble</h1>
+        <div class="content">
+          <p class="word">utengo</p>
+          <div class="details">
+            <p>Hint: <span class="hint"></span></p>
+            <p class="time-left">
+              Time Left: <span><b></b>s</span>
+            </p>
+          </div>
+          <input
+            type="text"
+            name=""
+            id="inputText"
+            placeholder="Enter a valid word"
+          />
+          <div class="button-container">
+            <button class="refresh-word">Refresh Word</button>
+            <button class="check-word">Check Word</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="word.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
