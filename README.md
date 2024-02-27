@@ -1,5 +1,5 @@
-# 30daysOfCSS
-The CSS challenge where i code everyday for the next 30 days and learn new tricks and animations!
+# 30daysOfCode
+The Coding challenge where I code everyday for the next 30 days and learn new tricks and animations!
 # Day 1:
 August 15,2023
 # Parallax effect website: 
