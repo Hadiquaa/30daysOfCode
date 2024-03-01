@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevDetective</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header>
+          <p>DevDetective</p>
+          <div class="dark">
+            <p>DARK</p>
+            <img
+              src="https://codehelp-devdetective.netlify.app/assets/images/moon-icon.svg"
+              alt=""
+              class="modeicon"
+            />
+          </div>
+        </header>
+        <main>
+          <div class="app">
+            <div class="search-bar">
+              <input
+                type="search"
+                name="user-input"
+                id="input"
+                placeholder="Enter a Github Username..."
+              />
+              <p class="error">No search results</p>
+              <button class="btn-search" type="submit">Search</button>
+            </div>
+            <div class="profile-container">
+              <div class="profile-content">
+                <div class="profile-header">
+                  <img
+                    class="avatar"
+                    src="https://avatars.githubusercontent.com/u/64855541?v=4"
+                    alt="avatar"
+                  />
+                  <div class="profile-info-wrapper">
+                    <div>
+                      <h2 id="id">Pranay Gupta</h2>
+                      <a
+                        href="https://github.com/thepranaygupta"
+                        target="_blank"
+                        id="blog"
+                        >@thepranaygupta</a
+                      >
+                    </div>
+                    <p id="date">Joined 05 May 2020</p>
+                  </div>
+                </div>
+                <p id="bio">
+                  internet craftsman 🛠️ • building @propeers-in • tech @codehelp
+                </p>
+                <div class="profile-stats-wrapper">
+                  <div class="profile-stats">
+                    <p class="stat-title">Repos</p>
+                    <p class="stat-val" id="repos">77</p>
+                  </div>
+                  <div class="profile-stats">
+                    <p class="stat-title">Followers</p>
+                    <p class="stat-val" id="followers">747</p>
+                  </div>
+                  <div class="profile-stats">
+                    <p class="stat-title">Following</p>
+                    <p class="stat-val" id="following">158</p>
+                  </div>
+                </div>
+                <div class="profile-bottom-wrapper">
+                  <div class="bottom">
+                    <div class="profile-info">
+                      <div class="bottom-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                      </div>
+                      <p id="location">Kolkata,IN</p>
+                    </div>
+                    <div class="profile-info">
+                      <div class="bottom-icon">
+                        <i class="fa-brands fa-x-twitter"></i>
+                      </div>
+
+                      <a href="#" id="twitter">thepranaygupta</a>
+                    </div>
+                  </div>
+                  <div class="bottom">
+                    <div class="profile-info">
+                      <div class="bottom-icon">
+                        <i class="fa-solid fa-link"></i>
+                      </div>
+                      <a href="#" id="link">thepranaygupta.bio.link</a>
+                    </div>
+
+                    <div class="profile-info">
+                      <div class="bottom-icon">
+                        <i class="fa-solid fa-building"></i>
+                      </div>
+                      <p id="company">@propeers.in</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/506573350a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
