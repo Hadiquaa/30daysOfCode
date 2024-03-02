@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #556270; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff6b6b,
+    #556270
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff6b6b,
+    #556270
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 1fr 50px;
+  grid-template-areas:
+    "hd"
+    "main"
+    "ft";
+  gap: 150px;
+  justify-items: center;
+}
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(7px);
+  color: white;
+}
+.box {
+  position: relative;
+  border: 2px solid white;
+  width: 100px;
+  height: 100px;
+  display: grid;
+  place-items: center;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.box1,
+.box4,
+.box7 {
+  border-left: none;
+}
+.box1,
+.box2,
+.box3 {
+  border-top: none;
+}
+.box7,
+.box8,
+.box9 {
+  border-bottom: none;
+}
+.box3,
+.box6,
+.box9 {
+  border-right: none;
+}
+
+.player {
+  color: white;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  text-align: center;
+  padding: 1rem;
+  backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 1rem;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
+  outline: none;
+  width: 200px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 1rem;
+  backdrop-filter: blur(7px);
+  font-size: 1.2rem;
+  color: white;
+  visibility: hidden;
+}
+
+.active {
+  visibility: visible;
+}
+
+.win {
+  background-color: rgb(0, 255, 0, 0.3);
+}
