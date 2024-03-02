@@ -33,3 +33,7 @@ A tool that generates random, secure passwords based on the parameters defined b
 February 29,2024
 # DevDetective:
 A mini project using Html,css and JS that provides a user-friendly interface to input GitHub usernames, allowing users to quickly access detailed coding activity, repositories, and linked social media profiles.
+# DAY 9
+March 1,2024
+# Tic Tac Toe
+A two player tic  tac toe game using html,css and javascript
