@@ -28,3 +28,8 @@ Another mini project using html,css and js that gives the user a scrambled word 
 # DAY 7:
 February 26,2024
 # Password Generator
+A tool that generates random, secure passwords based on the parameters defined by the user.
+# DAY 8:
+February 29,2024
+# DevDetective:
+A mini project using Html,css and JS that provides a user-friendly interface to input GitHub usernames, allowing users to quickly access detailed coding activity, repositories, and linked social media profiles.
