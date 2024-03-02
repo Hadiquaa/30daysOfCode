@@ -20,7 +20,9 @@ function init() {
   boxes.forEach((box) => {
     box.innerText = "";
     box.style.pointerEvents = "all";
+    box.classList.remove("win");
   });
+  player.innerText = `Current Player - ${currentPlayer}`;
   newGame.classList.remove("active");
 }
 
