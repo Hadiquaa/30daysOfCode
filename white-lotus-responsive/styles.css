@@ -760,4 +760,11 @@ color: #6a412f;
         gap:4rem;
     }
 }
-/* LArger devices above 1150px */
+@media screen and (min-width: 200px) {
+    .service-element-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .service-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
