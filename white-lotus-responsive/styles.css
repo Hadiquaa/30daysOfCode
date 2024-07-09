@@ -760,7 +760,7 @@ color: #6a412f;
         gap:4rem;
     }
 }
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 200px) {
     .service-element-grid{
         grid-template-columns: repeat(1,1fr);
     }
